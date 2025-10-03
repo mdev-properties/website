@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>MDEV Properties & Constructions</title>
+<style>
+  body {
+    margin: 0;
+    font-family: 'Times New Roman', serif;
+    background: linear-gradient(90deg, #c1dba9 0%, #2a6f32 100%);
+    color: #262262;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    padding: 10px 20px;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  .logo img {
+    height: 50px;
+  }
+  .tagline {
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-left: 10px;
+  }
+  .contact {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #262262;
+  }
+  .contact i {
+    margin-left: 5px;
+  }
+  .container {
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .left, .right {
+    flex: 1 1 300px;
+    margin: 10px;
+  }
+  .video-placeholder {
+    height: 350px;
+    background: black;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 350px;
+  }
+  .text-content {
+    font-style: italic;
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+  .checklist {
+    margin: 15px 0;
+    list-style: none;
+    padding: 0;
+  }
+  .checklist li {
+    background: #7bcc5b;
+    margin-bottom: 8px;
+    padding: 6px;
+    border-radius: 5px;
+  }
+  .contact-info {
+    margin-top: 15px;
+    font-size: 1.1rem;
+  }
+  .contact-info i {
+    margin-right: 5px;
+  }
+  a.cta-button {
+    display: inline-block;
+    padding: 20px 30px;
+    background: #295ead;
+    color: #262262;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 30px 30px 0 30px;
+    margin: 40px 20px;
+  }
+  .plan-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+  }
+  .plan-section img {
+    max-width: 100%;
+    height: auto;
+  }
+  .plan-text {
+    max-width: 500px;
+    color: #262262;
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-left: 15px;
+    align-self: center;
+  }
+  .feature-list {
+    margin-top: 15px;
+    font-style: italic;
+  }
+  .feature-list li {
+    background: #7bcc5b;
+    margin-bottom: 8px;
+    padding: 6px;
+    border-radius: 5px;
+  }
+  .feature-list li.important {
+    font-weight: 700;
+  }
+  .temple-image {
+    width: 300px;
+    border-radius: 40px;
+    margin-left: 20px;
+  }
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="logo">
+    <img src="logo.png" alt="MDEV Logo" />
+    <div class="tagline">IF YOU CAN DREAM IT<br> YOU CAN BUY IT</div>
+  </div>
+  <div class="contact">+91 93637 07370 <i>📞</i></div>
+</header>
+
+<section class="container">
+  <div class="left">
+    <div class="left">
+  <video width="350" height="350" controls>
+    <source src="promo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+  </div>
+  <div class="right">
+    <p class="text-content">🏡✨ <strong>Namma Thiruporur-la DTCP Approved Plots!✨🏡</strong></p>
+    <ul class="checklist">
+      <li>1200 Sq.ft | ₹950/- per Sq.ft</li>
+      <li>20 Ft Wide Road | Water at 20 Ft | Ready to Build</li>
+      <li>Surrounded by Schools, Colleges & Temples</li>
+      <li>Well-Developed Area – High Value Location!</li>
+    </ul>
+    <p class="contact-info">📍 Location: Paiyanoor Village, Thiruporur, Chennai<br>📞 Contact: 9363707370</p>
+  </div>
+</section>
+
+<a href="tel:9363707370" class="cta-button">CLICK HERE TO CONTACT NOW</a>
+
+<section class="plan-section">
+  <img src="3.png" alt="Plan and Map" />
+  <div class="plan-text">
+    <a href="#" style="color:#262262; font-weight:bold; font-size:1.25rem; text-decoration:underline;">DTCP Approved Plots @Thiruporur - ₹950/- per sq.ft</a>
+    <ul class="feature-list">
+      <li>₹950/- per Sq.ft</li>
+      <li>1200 Sq.ft</li>
+      <li>20 Ft Wide Road</li>
+      <li>Water at 20 Ft</li>
+      <li>Ready to Build</li>
+      <li>Surrounded by Houses & Temples</li>
+      <li>Near by Sathyabama University</li>
+      <li>Near by Hindustan University</li>
+      <li>Near by Vinayaka Missions University</li>
+      <li>Near by Chettinad Medical College & Research Centre</li>
+      <li class="important">Near by Thiruporur Murugan Temple</li>
+      <li>Well-Developed Area – High Value Location!</li>
+    </ul>
+  </div>
+</section>
+
+<section class="container" style="align-items: center;">
+  <img src="4.png" alt="Thiruporur Murugan Temple" class="temple-image" />
+</section>
+
+</body>
+</html>
